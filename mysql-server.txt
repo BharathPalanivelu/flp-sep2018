@@ -1,3 +1,6 @@
 mysql -u root -p
 
 GRANT ALL PRIVILEGES ON *.* TO 'USERNAME'@'IP' IDENTIFIED BY 'PASSWORD';
+
+
+mysql -u <local database username> -h <database server ip address> -p
